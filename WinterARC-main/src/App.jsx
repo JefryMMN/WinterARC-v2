@@ -12,7 +12,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Cards from "./components/Cards";
-import { color } from "three/tsl";
+
 
 const Card2 = ({ titles, desp, iconFill, iconCategory }) => {
   return (
